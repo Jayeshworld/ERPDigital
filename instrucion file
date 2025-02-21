@@ -1,0 +1,6 @@
+step 1
+run the migration
+php artisan migrate
+
+step 2 change the password to hash
+php artisan make:command HashEmployeePasswords
